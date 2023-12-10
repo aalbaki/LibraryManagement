@@ -1,0 +1,3 @@
+* make a library book directory 
+* admin can add books and remove them from the book directory. 
+*There is a search field and people can search books in the option. if someone click the book they show the details such as book name description buy link also / buy now. Users can read  their book on the website. The user must login with male and password  and the user also sees how many books he read.
