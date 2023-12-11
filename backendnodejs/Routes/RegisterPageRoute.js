@@ -33,7 +33,7 @@ router.post('/login',async(req,res)=>{
 router.post('/register',async(req,res)=>{
     const body=req.body;
 
-    const user=await model.find({email:body.email});
+    const user=await model.findOne({email:body.email});
     if(user)
     {
         res.json('Email already exist! Kindly Login!');
