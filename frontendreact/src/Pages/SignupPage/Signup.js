@@ -5,7 +5,7 @@ import video from '../../Videos/video.mp4';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const render_url='https://librarymanagementfrontend-jpz0.onrender.com'
+const render_url='https://library-management-hoi8.onrender.com'
 function Signup(){
   
  const signUpUrl=`${render_url}/user/register`;  //data to be posted as sign up form
