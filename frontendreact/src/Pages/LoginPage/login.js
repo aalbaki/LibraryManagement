@@ -2,7 +2,9 @@ import '../LoginPage/login.css';
 import img from '../../Images/book.png';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-const url='http://localhost:2000/user/login';
+
+const render_url='https://librarymanagementfrontend-jpz0.onrender.com'
+const url=`${render_url}/user/login`;
 
 
 function Login(){

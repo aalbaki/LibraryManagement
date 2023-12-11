@@ -6,8 +6,10 @@ import btn from '../../Images/switch.jpg';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+const render_url='https://librarymanagementfrontend-jpz0.onrender.com'
+
 const api_key='AIzaSyAA5BNl9WcPT7OZiyktXKTZI1lWPwjcbsY';
-const url='http://localhost:2000/collection/find';
+const url=`${render_url}/collection/find`;
 
 function Item()
 {

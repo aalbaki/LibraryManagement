@@ -6,7 +6,9 @@ import btn from '../../Images/switch.jpg';
 import { useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
-const url='http://localhost:2000/collection/';
+const render_url='https://librarymanagementfrontend-jpz0.onrender.com'
+
+const url=`${render_url}/collection/`;
 function Collection()
 {
   const [message,setmessage]=useState('');
